@@ -10,6 +10,7 @@ export class Header extends Component {
   createTemplate() {
     return `<header class="main-header">
               <h1 class="main-title">${this.title}</h1>
+              <img class="title" src="/pokemon-logo.svg" alt="Pokemon logo" width=250 height=250>
             </header>`;
   }
 }

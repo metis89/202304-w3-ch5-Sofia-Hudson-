@@ -3,7 +3,7 @@ import { Pokemon } from "../models/pokemon";
 export class ApiRepository {
   url: string;
   constructor() {
-    this.url = "https://pokeapi.co/api/v2/pokemon?limit=20&offset=0/";
+    this.url = "https://pokeapi.co/api/v2/pokemon?limit=20&offset=0/"; // copiar la url de donde vamos a coger los datos
   }
 
   async getAll() {
